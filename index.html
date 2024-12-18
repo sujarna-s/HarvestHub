@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dashboard</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <h1>SCM System</h1>
+    </div>
+    <ul>
+      <li><a href="index.html" class="active">Dashboard</a></li>
+      <li><a href="farmer_data.html">Farmer Data</a></li>
+      <li><a href="warehouse_data.html">Warehouse Data</a></li>
+      <li><a href="retailer_data.html">Retailer Data</a></li>
+    </ul>
+    <button class="logout-button">Logout</button>
+  </nav>
+
+  <div class="container">
+    <header class="welcome-header">
+      <h2>Welcome, <span>Mohammad Shaheen</span></h2>
+      <p>ID: <strong>SCM12345</strong></p>
+    </header>
+
+    <div class="dashboard-grid">
+      <div class="card">
+        <h3>Farmer Data</h3>
+        <p>View and manage incoming data from farmers.</p>
+        <a href="farmer_data.html" class="button">Farmer Data</a>
+      </div>
+
+      <div class="card">
+        <h3>Warehouse Data</h3>
+        <p>Input and track crop storage in warehouses.</p>
+        <a href="warehouse_data.html" class="button">Warehouse Data</a>
+      </div>
+
+      <div class="card">
+        <h3>Retailer Data</h3>
+        <p>Log and manage sales data for retailers.</p>
+        <a href="retailer_data.html" class="button">Retailer Data</a>
+      </div>
+    </div>
+  </div> 
+</body>
+</html>
